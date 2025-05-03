@@ -1,50 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - AzDev Coder</title>
-    <link rel="stylesheet" href="portfolio.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio - AzDev Coder</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="Logo-AzDev-Coder.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <a href="index.html">
+      <img src="Logo-AzDev-Coder.jpg" alt="AzDev Coder" width="150">
+    </a>
+    <nav>
+      <a href="index.html#sobre">Sobre</a>
+      <a href="index.html#servicos">Serviços</a>
+      <a href="portfolio.html" class="active">Portfólio</a>
+      <a href="index.html#contato">Contato</a>
+    </nav>
+  </header>
 
-    <section id="portfolio" class="portfolio">
-        <h2>Bem Vindo ao Portfólio da AzDev Coder</h2>
-        <p>Confira alguns dos nossos projetos realizados com sucesso.</p>
-
-        <div class="portfolio-item">
-            <a href="template1.html">
-            <h3>Projeto 1</h3>
-            <p>Desenvolvimento de um site corporativo para uma empresa de tecnologia.</p>
-            </a>
-        </div>
-
-        <div class="portfolio-item">
-            <a href="template2.html">
-            <h3>Projeto 2</h3>
-            <p>E-commerce para vendas de produtos diversos.</p>
-        </div>
-            </a>
-
-        <div class="portfolio-item">
-            <img src="portfolio3.jpg" alt="Projeto 3">
-            <h3>Projeto 3</h3>
-            <p>Aplicação web para gestão de processos internos em uma organização.</p>
-        </div>
+  <main>
+    <section class="intro">
+      <h1>Nosso Portfólio</h1>
+      <p>Veja alguns dos projetos que desenvolvemos com dedicação, performance e design moderno.</p>
     </section>
+    <section class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="images/projeto1.jpg" alt="Projeto 1">
+        <h3>Site Institucional - Cliente X</h3>
+        <p>Criação de site institucional moderno, responsivo e otimizado para SEO.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/projeto2.jpg" alt="Projeto 2">
+        <h3>Sistema Web - Gestão de Estoque</h3>
+        <p>Sistema online para controle de estoque e vendas com dashboard em tempo real.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/projeto3.jpg" alt="Projeto 3">
+        <h3>Loja Virtual - Cliente Y</h3>
+        <p>Desenvolvimento de e-commerce com integração ao WhatsApp e pagamento online.</p>
+      </div>
+    </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2025 AzDev Coder. Todos os direitos reservados.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 AzDev Coder. Todos os direitos reservados.</p>
+    <p>CNPJ: 58.964.559/0001-11 - Maringá/PR</p>
+  </footer>
 </body>
 </html>
