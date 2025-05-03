@@ -2,8 +2,7 @@
 
 document.querySelector("form").addEventListener("submit", function (e) {
     e.preventDefault();
-    alert("Mensagem enviada com sucesso! Em breve entraremos em contato.");
-    this.reset();
+
   document.getElementById('form-contato').addEventListener('submit', function (e) {
     e.preventDefault(); // Impede o recarregamento da página
 
@@ -15,5 +14,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
     // Armazena localmente no navegador (apenas exemplo)
     const contato = { nome, email, mensagem };
     localStorage.setItem('contato', JSON.stringify(contato));
+    alert("Mensagem enviada com sucesso! Em breve entraremos em contato.");
+    this.reset();
   });
   
