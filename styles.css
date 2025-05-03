@@ -291,9 +291,10 @@
   
   .box {
     background-color: var(--card);
-    
+    padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 100%;
   }
   
   .box h3 {
